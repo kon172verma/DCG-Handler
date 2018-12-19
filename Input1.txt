@@ -1,0 +1,14 @@
+sentence(X,Y) --> (np, vp).
+np --> (det, noun).
+vp --> (verb).
+vp --> (verb, np).
+det --> [a].
+det --> [an].
+det --> [the].
+noun --> [boy].
+noun --> [girl].
+noun --> [song].
+noun --> [apple].
+verb --> [sing].
+verb --> [sings].
+verb --> [eats].
